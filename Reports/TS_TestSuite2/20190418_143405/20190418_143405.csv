@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_TestSuite2,Firefox 62.0,,2019-04-18 14:35:30,2019-04-18 14:39:20,3m - 49.232s,PASSED
+,,,,,,
+Test Cases/UpdateAdrressUser,Firefox 62.0,,2019-04-18 14:35:31,2019-04-18 14:39:19,3m - 48.805s,PASSED
+"openBrowser(""http://automationpractice.com/index.php"")",Firefox 62.0,,2019-04-18 14:35:31,2019-04-18 14:39:05,3m - 33.283s,PASSED
+maximizeWindow(),Firefox 62.0,,2019-04-18 14:39:05,2019-04-18 14:39:05,0.081s,PASSED
+"click(findTestObject(""Object Repository/HomePage/a_Sign in""))",Firefox 62.0,,2019-04-18 14:39:05,2019-04-18 14:39:07,2.217s,PASSED
+"setText(findTestObject(""Object Repository/LoginPage/emailTxt""), ""pradovc01@gmail.com"")",Firefox 62.0,,2019-04-18 14:39:07,2019-04-18 14:39:07,0.129s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/LoginPage/passwordTxt""), ""15vY55HfNEocmsnUm6x6eA=="")",Firefox 62.0,,2019-04-18 14:39:07,2019-04-18 14:39:07,0.188s,PASSED
+"click(findTestObject(""Object Repository/LoginPage/sigInButton""))",Firefox 62.0,,2019-04-18 14:39:07,2019-04-18 14:39:09,1.820s,PASSED
+"click(findTestObject(""Object Repository/MyAccountPage/addressLink""))",Firefox 62.0,,2019-04-18 14:39:09,2019-04-18 14:39:10,1.141s,PASSED
+"click(findTestObject(""Object Repository/MyAddressPage/updateButton""))",Firefox 62.0,,2019-04-18 14:39:10,2019-04-18 14:39:11,1.167s,PASSED
+"setText(findTestObject(""Object Repository/EditAddressPage/address1TextBox""), newAdrress)",Firefox 62.0,,2019-04-18 14:39:11,2019-04-18 14:39:12,0.097s,PASSED
+"click(findTestObject(""Object Repository/EditAddressPage/SaveButton""))",Firefox 62.0,,2019-04-18 14:39:12,2019-04-18 14:39:14,2.235s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/MyAddressPage/addressText""), 10)",Firefox 62.0,,2019-04-18 14:39:14,2019-04-18 14:39:14,0.067s,PASSED
+"address = getText(findTestObject(""Object Repository/MyAddressPage/addressText""))",Firefox 62.0,,2019-04-18 14:39:14,2019-04-18 14:39:14,0.039s,PASSED
+"verifyMatch(address, newAdrress, true)",Firefox 62.0,,2019-04-18 14:39:14,2019-04-18 14:39:14,0.017s,PASSED
+assert address.equals(newAdrress),Firefox 62.0,,2019-04-18 14:39:14,2019-04-18 14:39:14,0.003s,PASSED
+"click(findTestObject(""Object Repository/MyAddressPage/a_SignLink""))",Firefox 62.0,,2019-04-18 14:39:14,2019-04-18 14:39:18,4.551s,PASSED
+closeBrowser(),Firefox 62.0,,2019-04-18 14:39:18,2019-04-18 14:39:19,1.057s,PASSED

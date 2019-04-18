@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UpdateAdrressUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5859c563-1398-4242-b0e8-a5a7aa7c4db8</testCaseGuid>
+   <variable>
+      <defaultValue>'Addrress123'</defaultValue>
+      <description></description>
+      <id>1d050dfe-2ca0-40bf-bbd6-5190005dba2b</id>
+      <masked>false</masked>
+      <name>newAdrress</name>
+   </variable>
+</TestCaseEntity>

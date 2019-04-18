@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TestSuite2" time="229" tests="1" failures="0" errors="0">
+   <testsuite name="TS_TestSuite2" tests="1" failures="0" errors="0" time="229" timestamp="2019-04-18 14:35:30" hostname="Veronica Prado - VPRADOV-DH01.jalasoft.local" id="Test Suites/TS_TestSuite2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\katalonDemo\\katalon1\\testProject\\Reports\\TS_TestSuite2\\20190418_143405"/>
+         <property name="logFiles" value="D:\\katalonDemo\\katalon1\\testProject\\Reports\\TS_TestSuite2\\20190418_143405\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Veronica Prado - VPRADOV-DH01.jalasoft.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="52f310c6-7516-41ba-aaee-71ce905790f6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UpdateAdrressUser" classname="Test Cases/UpdateAdrressUser" status="PASSED">
+         <system-out><![CDATA[2019-04-18 14:35:31 - [TEST_CASE][PASSED] - Test Cases/UpdateAdrressUser: Test Cases/UpdateAdrressUser
+
+2019-04-18 14:35:31 - [TEST_STEP][PASSED] - openBrowser("http://automationpractice.com/index.php"): Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2019-04-18 14:35:32 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-04-18 14:35:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-18 14:39:05 - [MESSAGE][PASSED] - Browser is opened with url: 'http://automationpractice.com/index.php'
+
+2019-04-18 14:39:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-18 14:39:05 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-18 14:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/a_Sign in")): Object: 'Object Repository/HomePage/a_Sign in' is clicked on
+
+2019-04-18 14:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/a_Sign in' is clicked on
+
+2019-04-18 14:39:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/LoginPage/emailTxt"), "pradovc01@gmail.com"): Text 'pradovc01@gmail.com' is set on object 'Object Repository/LoginPage/emailTxt'
+
+2019-04-18 14:39:07 - [MESSAGE][PASSED] - Text 'pradovc01@gmail.com' is set on object 'Object Repository/LoginPage/emailTxt'
+
+2019-04-18 14:39:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/LoginPage/passwordTxt"), "15vY55HfNEocmsnUm6x6eA=="): Text ****** has been set on object 'Object Repository/LoginPage/passwordTxt'
+
+2019-04-18 14:39:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginPage/passwordTxt'
+
+2019-04-18 14:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LoginPage/sigInButton")): Object: 'Object Repository/LoginPage/sigInButton' is clicked on
+
+2019-04-18 14:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/sigInButton' is clicked on
+
+2019-04-18 14:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyAccountPage/addressLink")): Object: 'Object Repository/MyAccountPage/addressLink' is clicked on
+
+2019-04-18 14:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/MyAccountPage/addressLink' is clicked on
+
+2019-04-18 14:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyAddressPage/updateButton")): Object: 'Object Repository/MyAddressPage/updateButton' is clicked on
+
+2019-04-18 14:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/MyAddressPage/updateButton' is clicked on
+
+2019-04-18 14:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EditAddressPage/address1TextBox"), newAdrress): Text 'Addrress123' is set on object 'Object Repository/EditAddressPage/address1TextBox'
+
+2019-04-18 14:39:12 - [MESSAGE][PASSED] - Text 'Addrress123' is set on object 'Object Repository/EditAddressPage/address1TextBox'
+
+2019-04-18 14:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EditAddressPage/SaveButton")): Object: 'Object Repository/EditAddressPage/SaveButton' is clicked on
+
+2019-04-18 14:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/EditAddressPage/SaveButton' is clicked on
+
+2019-04-18 14:39:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/MyAddressPage/addressText"), 10): Object 'Object Repository/MyAddressPage/addressText' is visible
+
+2019-04-18 14:39:14 - [MESSAGE][PASSED] - Object 'Object Repository/MyAddressPage/addressText' is visible
+
+2019-04-18 14:39:14 - [TEST_STEP][PASSED] - address = getText(findTestObject("Object Repository/MyAddressPage/addressText")): Text of object 'Object Repository/MyAddressPage/addressText' is: 'Addrress123'
+
+2019-04-18 14:39:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/MyAddressPage/addressText' is: 'Addrress123'
+
+2019-04-18 14:39:14 - [TEST_STEP][PASSED] - verifyMatch(address, newAdrress, true): Actual text 'Addrress123' and expected text 'Addrress123' are matched  using regular expression
+
+2019-04-18 14:39:14 - [MESSAGE][PASSED] - Actual text 'Addrress123' and expected text 'Addrress123' are matched  using regular expression
+
+2019-04-18 14:39:14 - [TEST_STEP][PASSED] - assert address.equals(newAdrress): null
+
+2019-04-18 14:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/MyAddressPage/a_SignLink")): Object: 'Object Repository/MyAddressPage/a_SignLink' is clicked on
+
+2019-04-18 14:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/MyAddressPage/a_SignLink' is clicked on
+
+2019-04-18 14:39:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-18 14:39:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-18 14:35:30 - [TEST_SUITE][PASSED] - TS_TestSuite2: Test Cases/UpdateAdrressUser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
